@@ -41,4 +41,16 @@ class BlockChain {
     );
     this.blocks.push(newBlock);
   }
+
+  public getBlock() {
+    return this.blocks;
+  }
 }
+
+const blockChain = new BlockChain();
+
+blockChain.addBlock("first");
+blockChain.addBlock("second");
+blockChain.addBlock("third");
+
+console.log(blockChain.getBlock());
