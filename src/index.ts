@@ -43,7 +43,7 @@ class BlockChain {
   }
 
   public getBlock() {
-    return this.blocks;
+    return [...this.blocks];
   }
 }
 
