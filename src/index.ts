@@ -53,4 +53,6 @@ blockChain.addBlock("first");
 blockChain.addBlock("second");
 blockChain.addBlock("third");
 
+blockChain.getBlock().push(new Block("abcd", -123, "hacked"));
+
 console.log(blockChain.getBlock());
